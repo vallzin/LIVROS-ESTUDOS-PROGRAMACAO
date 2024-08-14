@@ -1,11 +1,8 @@
-package Cap01;
-//Segunda aplicação, modificação da primeira aplicação
-//imprimindo com duas declarações de impressão diferentes
+//imprimindo linha de texto com multiplas opções
 
 
-public class BemVindo3 {
-
-    //método main para execução do aplicativo Java
+public class BemVindo {
+    //método main inicia a execução do aplicativo Java
     public static void main(String[] args) {
 
         System.out.println("Bem-vindo\n a\n programação\n com\n Java!");
@@ -18,9 +15,7 @@ public class BemVindo3 {
                 " \\ Barras invertidas. Utilizadas para imprimir um caractere de barra invertida.\n" +
                 " \\\" Aspas duplas. Utilizadas para imprimir um caractere de aspas duplas. Por exemplo,\n" +
                 "   System.out.println(\"\\\"entre aspas\\\"\");\n" +
-                " exibe \"entre aspas\".\n"+
-                "fonte: Java:como programar'");
+                " exibe \"entre aspas\".");
 
-
-    }
-}
+    }//fim método main
+}//fim da Classe Bemvindo
